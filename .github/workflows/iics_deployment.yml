@@ -3,7 +3,7 @@ name: DEPLOY_MAPPING_TASK
 on:
   push
 
-# env:
+env:
   # was updated
   # IICS_LOGIN_URL: https://dm-em.informaticacloud.com
   
@@ -12,7 +12,7 @@ on:
   # IICS_POD_URL: https://emw1.dm-em.informaticacloud.com/saas
   
   # IICS_USERNAME: ${{ secrets.IICS_USERNAME }}
-  # IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
+  IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
 
   # UAT_IICS_USERNAME: ${{ secrets.UAT_IICS_USERNAME }}
   # UAT_IICS_PASSWORD: ${{ secrets.UAT_IICS_PASSWORD }}
