@@ -28,3 +28,7 @@ Get secret stars
         env:
           CANDY_SECURE: ${{ secrets.IICS_USERNAME}}
 ```
+
+There are several places where one can save secrets: org, env, repo. Repo worked for me. 
+
+There are several places in code where one can get secrets: env of code, env of jobs. Env worked for me.
