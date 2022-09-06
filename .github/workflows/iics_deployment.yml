@@ -23,18 +23,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Login to development 
-        env:
-          IICS_USERNAME: ${{ secrets.IICS_USERNAME }}
-          IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
-        run: |
-          python ./scripts/infa_login.py  
+#       - name: Login to development 
+#         env:
+#           IICS_USERNAME: ${{ secrets.IICS_USERNAME }}
+#           IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
+#         run: |
+#           python ./scripts/infa_login.py  
 
       - name: Test
         env:
           IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
         run: |
-          if [ $IICS_PASSWORD == '123456789aA'] 
+          if [ "$IICS_PASSWORD" == "123456789aA"] 
           then
             echo "got secret"
           fi
