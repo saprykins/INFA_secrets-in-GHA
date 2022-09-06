@@ -1,3 +1,5 @@
+name: DEPLOY_MAPPING_TASK
+
 on:
   push
 
