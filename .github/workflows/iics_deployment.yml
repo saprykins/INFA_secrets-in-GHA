@@ -3,7 +3,7 @@ name: DEPLOY_MAPPING_TASK
 on:
   push
 
-env:
+# env:
   # was updated
   # IICS_LOGIN_URL: https://dm-em.informaticacloud.com
   
