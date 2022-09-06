@@ -9,7 +9,7 @@ user_name = os.environ.get('IICS_USERNAME')
 # user_name = "TestServiceAccount_cicd"
 # user_password = os.environ['IICS_PASSWORD']
 user_password = os.environ.get('IICS_PASSWORD')
-# user_password = "123456789aA"
+# user_password = "***"
 
 # LOGIN TO INFA
 
