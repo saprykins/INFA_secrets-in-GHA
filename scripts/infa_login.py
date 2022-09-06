@@ -1,11 +1,15 @@
 import requests
 import os
-
+import json
 
 URL = os.environ['IICS_LOGIN_URL']
 # USERNAME = os.environ['IICS_USERNAME']
 # PASSWORD = os.environ['IICS_PASSWORD']
 
+'''
+user_name = os.environ['IICS_USERNAME']
+user_password = os.environ['IICS_PASSWORD']
+'''
 user_name = os.environ['IICS_USERNAME']
 user_password = os.environ['IICS_PASSWORD']
 
@@ -23,7 +27,7 @@ myobj = {
 
 # x is response from INFA
 x = requests.post(url, json = myobj)
-print(x)
+# x returns auth issue
 '''
 # make response as json to be able to read as dictionary
 json_obj = x.json()
