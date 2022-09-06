@@ -35,3 +35,4 @@ jobs:
           if [ ${{ secrets.IICS_USERNAME }} == '123456789aA'] 
           then
             echo "got secret"
+          fi
