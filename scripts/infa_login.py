@@ -31,4 +31,3 @@ json_obj = x.json()
 # informatica session id
 session_id = json_obj["icSessionId"]
 print(session_id)
-
