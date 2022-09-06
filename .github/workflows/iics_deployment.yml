@@ -29,4 +29,5 @@ jobs:
 
       - name: print
         run: |
-            echo ${{ secrets.IICS_USERNAME}}
+            echo "testing"
+            # echo ${{ secrets.IICS_USERNAME}}
