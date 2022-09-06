@@ -19,3 +19,12 @@ jobs:
         run: |
             echo "testing"
 ```
+
+Get secret stars
+```
+      - name: print
+        run: |
+          echo $CANDY_SECURE
+        env:
+          CANDY_SECURE: ${{ secrets.IICS_USERNAME}}
+```
