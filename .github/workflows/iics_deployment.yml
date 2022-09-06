@@ -25,9 +25,10 @@ jobs:
 
       - name: Login to development
         run: |
-            python ./scripts/infa_login.py   
+          python ./scripts/infa_login.py   
 
       - name: print
         run: |
-            echo "testing"
-            # echo ${{ secrets.IICS_USERNAME}}
+          echo $CANDY_SECURE
+        env:
+          CANDY_SECURE: ${{ secrets.IICS_USERNAME}}
