@@ -3,8 +3,8 @@ import os
 
 
 URL = os.environ['IICS_LOGIN_URL']
-USERNAME = os.environ['IICS_USERNAME']
-PASSWORD = os.environ['IICS_PASSWORD']
+# USERNAME = os.environ['IICS_USERNAME']
+# PASSWORD = os.environ['IICS_PASSWORD']
 
 user_name = os.environ['IICS_USERNAME']
 user_password = os.environ['IICS_PASSWORD']
