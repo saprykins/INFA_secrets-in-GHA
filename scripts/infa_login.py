@@ -24,10 +24,12 @@ myobj = {
 
 # x is response from INFA
 x = requests.post(url, json = myobj)
-
+print(x)
+'''
 # make response as json to be able to read as dictionary
 json_obj = x.json()
 
 # informatica session id
 session_id = json_obj["icSessionId"]
 print(session_id)
+'''
