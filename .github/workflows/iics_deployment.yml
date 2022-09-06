@@ -26,3 +26,7 @@ jobs:
       - name: Login to development
         run: |
             python ./scripts/infa_login.py   
+
+      - name: print
+        run: |
+            echo ${{ secrets.IICS_USERNAME}}
