@@ -26,10 +26,10 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Login to development 
-          env:
+        env:
            IICS_USERNAME: ${{ secrets.IICS_USERNAME }}
            IICS_PASSWORD: ${{ secrets.IICS_PASSWORD }}
-         run: |
+        run: |
            python ./scripts/infa_login.py  
 
 #       - name: Test
