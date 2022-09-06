@@ -5,7 +5,8 @@ import os
 # USERNAME = os.environ['IICS_USERNAME']
 # PASSWORD = os.environ['IICS_PASSWORD']
 
-user_name = os.environ['IICS_USERNAME']
+# user_name = os.environ['IICS_USERNAME']
+user_name = "TestServiceAccount_gen"
 user_password = os.environ['IICS_PASSWORD']
 
 # LOGIN TO INFA
