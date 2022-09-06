@@ -5,7 +5,7 @@ on:
 
 env:
   # was updated
-  IICS_LOGIN_URL: https://dm-em.informaticacloud.com
+  # IICS_LOGIN_URL: https://dm-em.informaticacloud.com
   
   # ORIGINAL WAS
   # IICS_POD_URL: https://na1.dm-em.informaticacloud.com/saas
